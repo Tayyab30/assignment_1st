@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // Create a function that takes an array, an index, and a value as parameters.
-// Inside the function, use the splice method to insert the value at the specified 
+// Inside the function, use the splice method to insert the value at the specified
 // index in the array. Return the modified array.
 var arr = ["Islamabad", "Ahmed Nager", "Ahmadpur East", "Ali Khan", "Alipur", "Arifwala", "Attock"];
 function changeArray(arr, index, value) {
@@ -55,8 +55,8 @@ while (evenCount < 10) {
     count2++;
 }
 console.log("\n----------------------------------------\n");
-// Create a function that takes a positive integer as 
-// parameter and uses a while loop to calculate and return 
+// Create a function that takes a positive integer as
+// parameter and uses a while loop to calculate and return
 // the factorial of that number.
 function calculateFactorial(n) {
     if (n < 0) {
@@ -73,7 +73,7 @@ function calculateFactorial(n) {
 const inputNumber = 5;
 calculateFactorial(inputNumber);
 console.log("\n----------------------------------------\n");
-// Write a program having an array of numbers if the number is negative 
+// Write a program having an array of numbers if the number is negative
 // it should remove the negative number from the array.
 var arry_of_numbers = [1, 2, 4, -3, 6, -2, 6, -7];
 var i = 0;
@@ -104,7 +104,7 @@ const sum = calculateSum(numbersArray);
 console.log(`Sum of numbers: ${sum}`);
 console.log("\n----------------------------------------\n");
 // Implement a program that takes a list of temperatures in Celsius as input from the user.
-// Convert each temperature to Fahrenheit using 
+// Convert each temperature to Fahrenheit using
 // the formula F = (C * 9/5) + 32 and store the converted temperatures in an array.
 // Use a while loop to perform the conversion for each temperature.
 var celsius_temperatures = [25, 30, 15, 10];
